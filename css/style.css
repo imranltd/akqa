@@ -1,0 +1,408 @@
+body {
+    background-image: url('../assets/background.jpg');;
+    margin: 0;
+    padding: 0;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+
+#outerContainer {
+    display: table;
+    width: 100%;
+}
+
+#innerContainer {
+    width: 560px;
+    text-align: left;
+    margin-left: 25.3%;
+}
+
+#logo {
+    background-image: url('../assets/logo.jpg');
+    width: 100px;
+    height: 48px;
+    margin: 130px 0 0 21px;
+    text-indent: -9999px;
+}
+
+#mainContainer {
+
+}
+
+#outerContainer #mainContainer h1 {
+    font-weight: bold;
+    font-size: 31px;
+    margin: 67px 0 0 21px;
+    letter-spacing: -2px;
+    text-shadow: 2px 2px #ccc;
+}
+
+#outerContainer #mainContainer p {
+    font-size: 14px;
+    margin: 12px 0 0 22px;
+}
+
+.fontface #outerContainer #mainContainer h1 {
+    font-family: 'Droid Serif', serif
+}
+
+.fontface #outerContainer #mainContainer p {
+    font-family: 'Droid Serif', serif
+}
+
+#outerContainer #mainContainer #cart form input {
+    width: 31px;
+    display: inline-block;
+    height: 22px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#outerContainer #mainContainer #cart .qty-ctrl {
+    display: none
+}
+
+.js #outerContainer #mainContainer #cart .qty-ctrl {
+    display: inline-block;
+    margin: -6px 0 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.js #outerContainer #mainContainer #cart .qtyUp {
+    margin-bottom: -6px
+}
+
+.js #outerContainer #mainContainer #cart .qtyUp button,
+.js #outerContainer #mainContainer #cart .qtyDown button {
+    background-color: #ccc;
+    border: 0 none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    height: 14px;
+    width: 15px;
+}
+
+.js #outerContainer #mainContainer #cart .qtyUp button {
+    margin-top: 0
+}
+
+.js #outerContainer #mainContainer #cart .qtyDown button {
+    margin-top: 0
+}
+
+#outerContainer #mainContainer #cart #headings {
+    border-bottom: 2px solid;
+    float: left;
+    margin: 60px 0 0;
+    width: 498px;
+}
+
+#outerContainer #mainContainer #cart  #headings .header {
+    float: left;
+    font-weight: bold;
+    padding: 0 0 0 19px;
+    font-size: 18px;
+}
+
+#outerContainer #mainContainer #cart  #headings .header.product {
+    width: 238px
+}
+
+#outerContainer #mainContainer #cart #headings .header.price {
+    width: 60px
+}
+
+#outerContainer #mainContainer #cart #headings .header.quantity {
+    width: 70px
+}
+
+#outerContainer #mainContainer #cart #headings .header.cost {
+
+}
+
+#outerContainer #mainContainer #cart #items {
+    width: 550px;
+    margin: 27px 0 0 0;
+    float: left;
+}
+
+#outerContainer #mainContainer #cart  #items .item {
+    float: left;
+    padding: 0 0 22px 19px;
+    font-size: 18px;
+}
+
+.fontface  #outerContainer #mainContainer #cart-totals {
+    color: #666
+}
+
+.fontface  #outerContainer #mainContainer #items .item,
+.fontface  #outerContainer #mainContainer #cart-totals {
+    font-family: 'Droid Serif', serif
+}
+
+.fontface  #outerContainer #mainContainer #cart .header,
+.fontface  #outerContainer #mainContainer #cart-totals #total,
+.fontface #footer {
+    font-family: 'Droid Serif', serif
+}
+
+.fontface  #outerContainer #mainContainer #buynow #buy-btn button {
+    font-family: 'Droid Sans', sans-serif
+}
+
+#outerContainer #mainContainer #cart #items .item.product {
+    width: 235px
+}
+
+.js #outerContainer #mainContainer #cart #items .item.product {
+    width: 240px
+}
+
+#outerContainer #mainContainer #cart  #items .item.price {
+    width: 63px
+}
+
+#outerContainer #mainContainer #cart  #items .item.quantity label {
+    display: none
+}
+
+#outerContainer #mainContainer #cart #items .item.quantity {
+    margin-top: -4px;
+    padding: 0;
+    width: 79px;
+}
+
+#outerContainer #mainContainer #cart  #items .item.cost {
+    width: 53px
+}
+
+#outerContainer #mainContainer #cart  #items .item.remove span {
+    width: 40px
+}
+
+#outerContainer #mainContainer #cart  #items .item.remove a {
+    font-size: 16px
+}
+
+.js #outerContainer #mainContainer #cart  #items .item.remove a {
+    display: none
+}
+
+.js #outerContainer #mainContainer #cart  #items .item.remove span {
+    background-image: url('../assets/trash.gif');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: block;
+    width: 20px;
+    height: 25px;
+}
+
+#outerContainer #mainContainer #cart-totals {
+    width: 498px;
+    margin: 27px 0 0 0;
+    float: left;
+}
+
+#outerContainer #mainContainer #cart-totals>div {
+    clear: both;
+    float: left;
+    width: 498px;
+}
+
+#outerContainer #mainContainer #cart-totals .heading {
+    width: 380px;
+    float: left;
+    padding: 0 0 7px 22px;
+}
+
+#outerContainer #mainContainer #cart-totals .amount {
+    width: 80px;
+    float: left;
+    text-align: right;
+}
+
+#outerContainer #mainContainer #cart-totals #total {
+    padding: 20px 0 0 0;
+    font-weight: bold;
+    color: #000;
+}
+
+#outerContainer #mainContainer #buynow {
+    clear: both;
+    float: left;
+    margin: 47px 0 178px;
+    width: 479px;
+}
+
+#outerContainer #mainContainer #buynow #buy-btn button {
+    background-color: #000065;
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #999;
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px 0 10px 5px;
+    text-align: left;
+    text-decoration: none;
+    width: 120px;
+}
+
+#outerContainer #mainContainer #buynow #buy-btn button.inactive {
+    background-color: #ccc;
+    color: #333;
+}
+
+#outerContainer #footer {
+    background-color: #666;
+    width: 100%;
+    clear: both;
+    /* float: left; */
+    margin: 10px 0 0 0;
+    border-top: 1px solid #000;
+    padding: 14px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+}
+
+#errorMessage {
+    float: left;
+    margin: -58px 0 0 0;
+    padding: 5px;
+    color: red;
+    background-color: #000;
+    width: 60%;
+}
+
+#errorMessage span {
+    display: inline-block;
+    padding: 5px;
+    background-color: yellow;
+    color: #000;
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) { 
+    #innerContainer {
+        margin-left: 20%
+    }
+}
+
+@media all and (max-width: 699px) and (min-width: 520px) { 
+    #innerContainer {
+        margin-left: 2%;
+        width: 93%;
+    }
+
+    #logo {
+        margin: 70px 0 0 0
+    }
+}
+
+@media all and (max-width: 520px) and (min-width: 320px) { 
+    #outerContainer {
+        display: block
+    }
+
+    #innerContainer {
+        display: block;
+        margin-left: 0;
+        width: 99%;
+    }
+
+    #logo {
+        margin: 50px 0 0 0
+    }
+
+    #outerContainer #mainContainer h1 {
+        margin: 25px 0 0 21px
+    }
+
+    #outerContainer #mainContainer #cart #headings {
+        width: 100%;
+        margin: 30px 0 0;
+    }
+
+    #outerContainer #mainContainer #cart #headings .header {
+        font-size: 14px
+    }
+
+    #outerContainer #mainContainer #cart #items {
+        width: 110%
+    }
+
+    #outerContainer #mainContainer #cart #items .item {
+        font-size: 12px;
+        padding: 0 0 13px 19px;
+    }
+
+    #outerContainer #mainContainer #cart #headings .header.product {
+        width: 39%
+    }
+
+    #outerContainer #mainContainer #cart #headings .header.price,
+    #outerContainer #mainContainer #cart #items .item.price {
+        width: 10%
+    }
+
+    #outerContainer #mainContainer #cart #headings .header.quantity,
+    #outerContainer #mainContainer #cart #items .item.quantity {
+        width: 15%
+    }
+
+    #outerContainer #mainContainer #cart #headings .header.cost {
+        width: 15%
+    }
+
+    #outerContainer #mainContainer #cart #items .item.product,
+    .js #outerContainer #mainContainer #cart #items .item.product {
+        width: 34%
+    }
+
+    #outerContainer #mainContainer #cart #items .item.cost {
+        width: 8%
+    }
+
+
+	#outerContainer #mainContainer #cart-totals,
+	#outerContainer #mainContainer #cart-totals > div,
+	#outerContainer #mainContainer #buynow {
+	    width: 100%
+	}
+
+	#outerContainer #mainContainer #cart-totals .heading {
+	    width: 50%
+	}
+
+	#outerContainer #mainContainer #cart-totals .amount {
+	    width: 40%
+	}
+}
+
+@media all and (max-width: 320px) and (min-width: 120px) { 
+    #outerContainer #mainContainer #cart #headings .header.product {
+        width: 32%
+    }
+
+    #outerContainer #mainContainer #cart #headings .header.quantity,
+    #outerContainer #mainContainer #cart #items .item.quantity {
+        width: 16%
+    }
+
+    #outerContainer #mainContainer #cart #items .item.cost {
+        width: 5%
+    }
+
+    #outerContainer #mainContainer #cart #items .item.remove a {
+        font-size: 12px
+    }
+
+    #outerContainer #mainContainer #cart #items>div {
+        height: 46px
+    }
+}
